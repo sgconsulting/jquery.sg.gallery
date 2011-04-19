@@ -20,7 +20,8 @@
 <script type="text/javascript" src="../lib/jquery.sg.gallery.js"></script>
   <script type="text/javascript">
     $(window).load(function() {
-      $('#gallery1').gallery();
+      //$('#gallery1').gallery({startIdx: 1, startX: -100});
+    $('#gallery1').gallery();
     });
   </script>
 </head>
@@ -38,6 +39,8 @@
     <img src="ph8.jpg">
     <img src="ph9.jpg">
   </div>
+  <div class="clearer">&nbsp;</div>
+  <div><a href="javascript:;" id="prev">&lt;&lt; Previous</a> - <a href="javascript:;" id="next">Next &gt;&gt;</a></div>
   <div class="clearer">&nbsp;</div>
   <p>All photos courtesy <a href="http://www.filippogalluzzi.it">Filippo Galluzzi</a></p>
 </body>
