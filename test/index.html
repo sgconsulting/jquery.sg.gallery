@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>jQuery.sg.gallery tests</title>
+  <style media="screen">
+    body {
+      font: 14px/18px monospace;
+    }
+    .clearer {display: block; clear: both;}
+    #gallery1 {height: 400px; position: relative; overflow: hidden; width: 100%;}
+    #gallery1 img {float: left;}
+  </style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+<script type="text/javascript" src="../lib/jquery.sg.gallery.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $('#gallery1').gallery();
+    });
+  </script>
+</head>
+
+<body>
+  <h1>Test gallery</h1>
+  <div id="gallery1">
+    <img src="ph1.jpg">
+    <img src="ph2.jpg">
+    <img src="ph3.jpg">
+    <img src="ph4.jpg">
+    <img src="ph5.jpg">
+    <img src="ph6.jpg">
+    <img src="ph7.jpg">
+    <img src="ph8.jpg">
+    <img src="ph9.jpg">
+  </div>
+  <div class="clearer">&nbsp;</div>
+  <p>All photos courtesy of <a href="http://www.filippogalluzzi.it">Filippo Galluzzi</a></p>
+</body>
+</html>
