@@ -1,0 +1,26 @@
+.sg-gallery {
+    position: relative; 
+    overflow: hidden; 
+    width: 100%;
+    background-color: #000;
+}
+
+#sg-prev, #sg-next {
+    width: 40%;
+    background-color: #fff;
+    display: block;
+    z-index: 100;
+    position: relative;
+    color: transparent;
+}
+#sg-prev{float: left;}
+#sg-next{float: right;}
+
+.sg-gallery-img {
+    float: left;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    border: none;
+}
