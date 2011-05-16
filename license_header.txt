@@ -6,4 +6,8 @@
  * Licensed under the Mozilla Public License Version 1.1
  * https://github.com/sgconsulting/jquery.sg.gallery/blob/master/MPL-1.1-LICENSE.txt
  *
+ * Dinamically loads the script jquery.mobile.event.js from jQuery Mobile
+ * to add support for swipe events on mobile devices
+ * http://jquerymobile.com/
+ *
  */
